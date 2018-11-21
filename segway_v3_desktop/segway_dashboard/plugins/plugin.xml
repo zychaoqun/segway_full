@@ -1,0 +1,22 @@
+<library path="src">
+  <class name="SegwayDashboard" type="segway_dashboard.dashboard.SegwayDashboard" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Dashboard for Segway V3
+    </description>
+    <qtgui>
+      <group>
+        <label>Robot</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to specific robots.</statustip>
+      </group>
+      <group>
+        <label>Segway V3</label>
+        <icon type="file">images/si_icon.png</icon>
+        <statustip>Plugins related to the Segway V3 robot.</statustip>
+      </group>
+      <label>Segway Dashboard</label>
+      <icon type="file">images/si_icon.png</icon>
+      <statustip>Check what's going on with Segway V3</statustip>
+    </qtgui>
+  </class>
+</library>

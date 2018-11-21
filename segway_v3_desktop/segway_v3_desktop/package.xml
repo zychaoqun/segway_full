@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>segway_v3_desktop</name>
+  <version>0.0.1</version>
+  <description>Remote visualization and control packages for the Segway RMP V3</description>
+  <maintainer email="rmp@stanleyinnovation.com">Patrick Hussey</maintainer>
+  <url type="website">http://ros.org/wiki/segway_rmp_v3</url>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>segway_viz</run_depend>
+  <run_depend>segway_msgs</run_depend>
+  <run_depend>segway_dashboard</run_depend>
+  <run_depend>segway_v3</run_depend>
+  <run_depend>ublox_msgs</run_depend>
+  <run_depend>velodyne_msgs</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

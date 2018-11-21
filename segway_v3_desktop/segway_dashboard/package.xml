@@ -1,0 +1,27 @@
+<package>
+
+  <name>segway_dashboard</name>
+  <version>0.0.1</version>
+  <description>
+    RQT based plugin for visualizing feedback data and GUI access to
+    some of the Segway V3 functions
+  </description>
+    
+  <maintainer email="RMP@stanleyinnovation.com">Stanley Innovation, Inc.</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/segway_rmp_v3</url>
+  <author>Patrick Hussey</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>rqt_robot_dashboard</build_depend>
+  <build_depend>segway_msgs</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>rqt_robot_dashboard</run_depend>
+  <run_depend>segway_msgs</run_depend>
+  
+  <export>
+    <rqt_gui plugin="${prefix}/plugins/plugin.xml"/>
+  </export>
+</package>
