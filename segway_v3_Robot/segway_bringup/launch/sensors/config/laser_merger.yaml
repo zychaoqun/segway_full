@@ -1,0 +1,8 @@
+angle_min: 3.14
+angle_max: -3.14
+angle_increment: 0.005759587
+time_increment: 0.0
+scan_time: 0.066666667
+range_min: 0.05
+range_max: 25.0
+
